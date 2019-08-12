@@ -20,10 +20,14 @@ li {
   background-color: #0000ff;
 }
 
-.mid div  {
-
+.mid div {
   padding-top: 10px;
   padding-bottom: 5px;
+}
+
+.jokeimages img {
+    width: 300px;
+    max-width: 300px;
 }
 
 .topimages {
@@ -31,6 +35,7 @@ li {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+
   .img {
     margin-top: 30px;
   }
@@ -50,16 +55,15 @@ li {
   background-color: #ff0000;
 }
 
-@media screen only and (width <501px)
-{
+@media screen only and (width <501px) {
   .img {
     margin-left: 20px;
     margin-right: 20px;
-}
-
-@media screen only and (width > 500px) {
-  .img {
-    margin-left: 200px;
-    margin-right: 200px;
   }
-}
+
+  @media screen only and (width > 500px) {
+    .img {
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+  }
