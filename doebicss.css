@@ -10,7 +10,7 @@
 }
 
 li {
-  background-color: #ee0000;
+  background-color: #ff0000;
 }
 
 .top {
@@ -26,14 +26,14 @@ li {
 }
 
 .jokeimages img {
-    width: 300px;
-    max-width: 300px;
+  width: 300px;
+  max-width: 300px;
 }
 
 .topimages {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-around;
   flex-wrap: wrap;
 
   .img {
@@ -42,11 +42,26 @@ li {
 }
 
 .thename {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
   background-color: #00ff00;
+}
+
+.oversection{
+  background-color: #ff0000;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  background-color: #ff0000;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .mymail {
