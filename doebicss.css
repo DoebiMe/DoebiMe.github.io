@@ -8,6 +8,11 @@
   color: white;
 }
 
+a:hover{
+  background-color: #000000;
+  color: #0000ff;
+}
+
 .page {
   /* border: 1px solid #ff0000; mark border page red */
   text-align: center;
