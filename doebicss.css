@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+.white {
+  color: white;
+}
+
 .page {
   /* border: 1px solid #ff0000; mark border page red */
   text-align: center;
+  background-color: #ff0000;
 }
 
 li {
