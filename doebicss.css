@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
+header,
 .white {
   color: white;
 }
 
 a:hover{
-  background-color: #000000;
+  background-color: #ffffff;
   color: #0000ff;
 }
 
